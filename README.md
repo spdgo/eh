@@ -160,7 +160,34 @@ like Google, Yahoo and Facebook have all been affected by cross-site scripting f
  at some point. Attacks exploiting XSS vulnerabilities can steal data, take control 
 of a user's session, run malicious code, or be used as part of a phishing scam.
 
-steps:-   ???????????????????
+steps:- i)open xampp and mysql and apache start
+
+ii)https://dvwa.co.uk/ download dvwa file and extract in htdocs ..
+
+iii)Now go to config file in dvwa and open the .dist file and clear the password and give username ‘root’ and save as phpfile
+
+iv)save it as config.inc.php
+Then go to browser and give the link http://www.localhost/DWVA_master/setup.php it will open the below window
+
+v)Click on Create/Reset Database it will open the below window in that
+window give the username ‘Admin’ and password ‘password’
+
+vi)Now go to DVWA Security and set as low Click on submit
+
+vii)) Now go to XSS(Stored)
+
+Give the name that you want and Message in html format
+test 
+<b>hello</b>
+
+click on sign guestbook 
+
+again add script<script>alert("hacked website") and run again and give script...
+
+
+
+
+
 
 
 
@@ -212,8 +239,22 @@ characters embedded in SQL statements or user input is not strongly typed
  and unexpectedly executed. SQL injection is mostly known as an attack
  vector for websites but can be used to attack any type of SQL database. 
 
-steps:- ???????????????????
+steps:- i)open xampp and mysql and apache start
 
+ii)https://dvwa.co.uk/ download dvwa file and extract in htdocs ..
+
+iii)Now go to config file in dvwa and open the .dist file and clear the password and give username ‘root’ and save as phpfile
+
+iv)save it as config.inc.php
+Then go to browser and give the link http://www.localhost/DWVA_master/setup.php it will open the below window
+
+v)Click on Create/Reset Database it will open the below window in that
+window give the username ‘Admin’ and password ‘password’
+
+ vi)then go sql injection and perform in user id
+ enter one by one...
+ 1=1 ,1 ,2,3,4,5,2=2,,2*
+ done
 
 12]Create a simple keylogger using python.
 
